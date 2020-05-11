@@ -1,0 +1,9 @@
+sms: 
+ monyun: 
+  userid: ENC(sUjDs1qM3ERtKp3B+osNKg==)
+  pwd: ENC(F/FbO7Xjt03LaNBMWjENrw==)
+
+spring:
+ mail: 
+  username: ENC(rg/6+4yLL5GJRtUYTDQvHKCVO+IaG3xM)
+  password: ENC(edhK7m/TG1eRc4mLX1HdVymMULdDlqDb)

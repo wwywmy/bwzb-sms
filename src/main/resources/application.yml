@@ -1,0 +1,29 @@
+server: 
+ port: 10086
+
+sms: 
+ monyun: 
+  url: http://tsc1.800ct.com:8803/sms/v2/std/single_send
+  userid: ENC(GUSorkAcOLLcgI3s+5MWQw==)
+  pwd: ENC(bSbrjR91bL2TLuISJpstVQ==)
+
+spring:
+ profiles: 
+  active: local
+ mail: 
+  host: smtp.cndi.com
+  port: 25
+  username: ENC(2I5W/FqT88Leq4cdcKp72lA/Sn8MJsYW)
+  password: ENC(S+r5VbJjcn7i3eot22chwRiLqOggV0l9)
+  properties: 
+   mail:
+    smtp: 
+     auth: true
+     starttls: 
+      enable: true
+      required: true
+     socketFactory:
+      class: javax.net.ssl.SSLSocketFactory
+      
+system:
+ name: "BWZB"
