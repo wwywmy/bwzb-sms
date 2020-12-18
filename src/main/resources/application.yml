@@ -27,3 +27,7 @@ spring:
       
 system:
  name: "BWZB"
+ 
+wechat:
+  webhook: ENC(Q8xybI7pSS9QYd1j38PYe01j3T+K/XWabBlmXFtQcCaaUKYyRHP9BqXNZ4u1TzDL)
+# webhook: ENC(CIbOut3fy1/P1xbRRMKOc7/1Ckf8rsWpRp7Xq4IcT/0nmHgTh7x2HYMn/HYC0QbN)

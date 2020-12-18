@@ -130,6 +130,23 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
+		
+		
+		<!-- dingtalk -->
+		<!-- 
+		mvn install:install-file -Dfile=D:\3jar\taobao-sdk-java-auto_1479188381469-20201209.jar -DgroupId=com.taobao -DartifactId=dingtalk -Dversion=20201209 -Dpackaging=jar
+		 -->
+		<dependency>
+			<groupId>com.taobao</groupId>
+			<artifactId>dingtalk</artifactId>
+			<version>20201209</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 
 	<build>
