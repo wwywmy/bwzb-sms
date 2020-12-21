@@ -31,3 +31,8 @@ system:
 wechat:
   webhook: ENC(Q8xybI7pSS9QYd1j38PYe01j3T+K/XWabBlmXFtQcCaaUKYyRHP9BqXNZ4u1TzDL)
 # webhook: ENC(CIbOut3fy1/P1xbRRMKOc7/1Ckf8rsWpRp7Xq4IcT/0nmHgTh7x2HYMn/HYC0QbN)
+
+
+dingding:
+  secret: ENC(KEReHjrw78734mMNr4sUDtf87x5fFf2GWhBsBUndTLO/TqI9IJgGaBdB++QKWD6zA/VCRnOdDy0MMk1ZFhK6iCVjHJzZHqrSRnKWgohEwqc=)
+  accessToken: ENC(4Ks56QA4TtsBY8LOaEK0vtiO5inLlcY04MrtMNRwzSJI5hvBh9izVhk+YHKtGt95okLikgMPpG9OyMYmesfjAxg97XVFdN/OcNwgjokhnos=)

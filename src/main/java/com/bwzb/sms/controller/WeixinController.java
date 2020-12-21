@@ -24,4 +24,16 @@ public class WeixinController {
 		
 		return CommonResult.success("发送成功", null);
 	}
+	
+	
+	@RequestMapping("/sendMarkdown")
+	public Object sendMarkdown(@RequestParam("content") String content) {
+		try {
+			weixinService.sendMarkdown(content);
+		} catch(Exception e) {
+			return CommonResult.failed(e.getMessage());
+		}
+		
+		return CommonResult.success("发送成功", null);
+	}
 }
