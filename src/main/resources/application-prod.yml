@@ -1,9 +1,18 @@
 sms: 
  monyun: 
   userid: ENC(sUjDs1qM3ERtKp3B+osNKg==)
-  pwd: ENC(F/FbO7Xjt03LaNBMWjENrw==)
+  pwd: ENC(F/FbO7Xjt03LaNBMWjENrw==) 
 
 spring:
  mail: 
   username: ENC(rg/6+4yLL5GJRtUYTDQvHKCVO+IaG3xM)
   password: ENC(edhK7m/TG1eRc4mLX1HdVymMULdDlqDb)
+  
+
+wechat:
+  webhook: ENC(FUjvn/8NDDvRRF+p3879biXDTi6Mo1Qf53l0KS6GbwQ6AmD5Uzo3bGVBt8VmpEXs)
+
+
+dingding:
+  secret: ENC(8mh2HwawWZFPilRqq6B2hATIMbjACvanOitT1Mh3HpalK4fVF1TCR+sjgya8iJx3uGAJsIL6o8268DaDeSuy/G3PHqgdQJbTjX2pYpeOcdQ=)
+  accessToken: ENC(PoQ4cq4QNL8BrWR1PeaITpm2naVgnapaWBm+fBg1IBurfoGwj0F2HvnJaxqNXOPx6tJqr0KF3gq0G41IUmi+7ERFwo16nXPgevSmaL5PS+A=)
