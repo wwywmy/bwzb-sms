@@ -10,9 +10,9 @@ spring:
   
 
 wechat:
-  webhook: ENC(FUjvn/8NDDvRRF+p3879biXDTi6Mo1Qf53l0KS6GbwQ6AmD5Uzo3bGVBt8VmpEXs)
+  webhook: ENC(0UQGFnx7u6HOO8T50nhWhC42g1cnWVdun3ThAEp0MvBSFQUcmJM7zs22BX5BSOxn)
 
 
 dingding:
-  secret: ENC(8mh2HwawWZFPilRqq6B2hATIMbjACvanOitT1Mh3HpalK4fVF1TCR+sjgya8iJx3uGAJsIL6o8268DaDeSuy/G3PHqgdQJbTjX2pYpeOcdQ=)
-  accessToken: ENC(PoQ4cq4QNL8BrWR1PeaITpm2naVgnapaWBm+fBg1IBurfoGwj0F2HvnJaxqNXOPx6tJqr0KF3gq0G41IUmi+7ERFwo16nXPgevSmaL5PS+A=)
+  secret: ENC(EK1TMWtsTUBj/5Z73btdDlHburuRu2HSy5DQ+HJllFXwG45HuPNyoTy4ZeIZOl51RPGMvlL+fYhB9/ziqUSYTczQKwGst8qPSTiytdsIRrY=)
+  accessToken: ENC(qkJ/wumLO6UIDbOVfwUJ1i5oFuHqEcHOdaDnegBYoJ8LMSZgDR9PHDAQas1x1xGnmSUZ9harjO2vKI0psehdesd08sUuO6C3SOD5ln8HI+Y=)
