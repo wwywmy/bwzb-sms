@@ -58,6 +58,11 @@ public class WeixinServiceImpl implements IWeixinService {
 
 	@Override
 	public boolean sendMarkdown(String content) {
+		//处理shell脚本，换行只生成/r的情况
+		if (content.indexOf("\\r") > 0) {
+			content = content.replaceAll("\\r", System.getProperty("line.separator"));
+		}
+		
 		EnterpriseWeChatRobotSendRequest request = new EnterpriseWeChatRobotSendRequest();
 		request.setMsgType(MsgTypeEnum.markdown);
 
